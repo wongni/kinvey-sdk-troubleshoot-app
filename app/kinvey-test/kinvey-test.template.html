@@ -1,0 +1,18 @@
+<div>
+  <h4>Panel Types</h4>
+  <ul>
+    <li ng-repeat="type in $ctrl.panelTypes">
+      {{ type.name }}
+    </li>
+  </ul>
+  <hr>
+  <h4>Breaker Types</h4>
+  <ul>
+    <li ng-repeat="type in $ctrl.breakerTypes">
+      {{ type.name }}
+    </li>
+  </ul>
+  <p>
+    {{ $ctrl.error }}
+  </p>
+</div>

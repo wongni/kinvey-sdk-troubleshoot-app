@@ -1,0 +1,11 @@
+{
+  "name": "kinvey-sdk-troubleshoot-app",
+  "description": "A test application to troubleshoot Kinvey SDK on iOS 9 + Chrome",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.x",
+    "angular-route": "1.5.x"
+  }
+}
